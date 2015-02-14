@@ -77,8 +77,8 @@ use Time::ParseDate;
 #
 # You need to override these for access to your database
 #
-my $dbuser="jxb687";
-my $dbpasswd="zvx3Yf1Xs";
+my $dbuser="jxb687";          ## Oracle username: ghk455
+my $dbpasswd="zvx3Yf1Xs";     ## Oracle password: znf5JW5rm
 
 
 #
