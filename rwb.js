@@ -201,7 +201,8 @@ Start = function(location) {
 	map = new google.maps.Map(mapc[0],
 		{
 			zoom: 16,
-			center: new google.maps.LatLng(lat,long),
+			//center: new google.maps.LatLng(lat,long),
+			center: new google.maps.LatLng(44.0, -82.4),
 			mapTypeId: google.maps.MapTypeId.HYBRID
 		});
 
