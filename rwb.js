@@ -28,6 +28,10 @@
 //
 $(document).ready(function() {
 	navigator.geolocation.getCurrentPosition(Start);
+<<<<<<< HEAD
+=======
+       //	alert("Testing the server connecting");
+>>>>>>> push from the server
 });
 
 // Global variables
@@ -201,8 +205,12 @@ Start = function(location) {
 	map = new google.maps.Map(mapc[0],
 		{
 			zoom: 16,
+<<<<<<< HEAD
 			//center: new google.maps.LatLng(lat,long),
 			center: new google.maps.LatLng(44.0, -82.4),
+=======
+			center: new google.maps.LatLng(lat,long),
+>>>>>>> push from the server
 			mapTypeId: google.maps.MapTypeId.HYBRID
 		});
 
